@@ -1,0 +1,36 @@
+/* web.toddleapp.com.css */
+
+/* Make main containers transparent */
+body,
+html,
+div,
+section,
+main,
+header,
+footer,
+nav,
+article {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Remove card backgrounds */
+[class*="card"],
+[class*="container"],
+[class*="panel"],
+[class*="box"] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Make modals transparent too */
+[role="dialog"],
+.modal {
+  background: transparent !important;
+}
+
+/* Optional: remove blur/backdrop effects */
+* {
+  backdrop-filter: none !important;
+}
